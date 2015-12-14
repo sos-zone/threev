@@ -1,0 +1,325 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic);
+body {
+  /*	margin: 0;
+	padding: 0;*/
+  background-color: #F5F7F5;
+  font-family: 'PT Sans', sans-serif;
+}
+header[class^="smallhead"] {
+  height: 30px;
+  font-size: 15px;
+  color: #999999;
+  background-color: #F5F7F5;
+}
+header[class^="smallhead"] .reg {
+  float: left;
+}
+header[class^="smallhead"] .menu {
+  text-align: right;
+}
+header[class^="smallhead"] a {
+  color: #000000;
+}
+header[class^="smallhead"] a[class="uline"] {
+  text-decoration: underline;
+}
+header[class^="smallhead"] a:hover {
+  color: #f19b00;
+}
+header[class^="smallhead"] ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+@media (max-width: 970px) {
+  .bonustext {
+    display: none;
+  }
+}
+header[class^="bighead"] {
+  height: 85px;
+  font-size: 16px;
+  color: #f19b00;
+}
+@media only screen and (min-width: 970px) {
+  #lmmenu {
+    padding-right: 0;
+  }
+  #rmmenu {
+    padding-left: 0;
+  }
+}
+.rmenu {
+  font-size: 15px;
+  color: #000;
+}
+.rmenu ul {
+  list-style: none;
+}
+.rmenu li:hover {
+  color: #fff;
+}
+.search {
+  height: 30px;
+  font-size: 14px;
+  color: #000;
+}
+.search [name="autoname"] {
+  margin: 0px 10px 10px 0px;
+  float: left;
+}
+.search #search-carimg {
+  float: left;
+  position: absolute;
+  top: 8px;
+  right: 45px;
+}
+.search [name="autoarticle"] {
+  /*width: 350px;*/
+  float: left;
+}
+.search #search-loopimg {
+  float: left;
+  position: absolute;
+  top: 0px;
+  right: 15px;
+}
+.search li img {
+  margin-right: 10px;
+}
+div[class^="main-index"] h3,
+div[class^="main-index"] h2,
+div[class^="main-index"] p {
+  color: #F5F7F5;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+}
+div[class^="main-index"] p {
+  padding-top: 35px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 0.99em;
+}
+div[class^="main-index"] p a[role="button"] {
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+  font-weight: bold;
+}
+div[class^="main-index"] .j-main {
+  width: 540px;
+  height: 370px;
+  float: left;
+  position: relative;
+}
+div[class^="main-index"] .j-main .j-wrap {
+  width: 200px;
+  height: 100%;
+  background-color: rgba(62, 62, 62, 0.3);
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  padding: 42px 5px;
+}
+div[class^="main-index"] .j-sub {
+  margin-left: 3px;
+  margin-bottom: 3px;
+  width: 300px;
+  float: left;
+  position: relative;
+}
+div[class^="main-index"] .j-sub .j-wrap {
+  width: 110px;
+  height: 100%;
+  background-color: rgba(62, 62, 62, 0.3);
+  position: absolute;
+  top: 0px;
+  left: 15px;
+}
+@media (max-width: 970px) {
+  .j-sub {
+    display: none;
+  }
+}
+div[class^="advantages"] {
+  height: 100px;
+}
+div[class^="advantages"] .single-advant {
+  height: 100%;
+  padding-left: 115px;
+  padding-top: 15px;
+  border: 1px solid #E2E3E3;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+div[class^="advantages"] .single-advant .adv-img {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+div[class^="advantages"] span[class="adv-name"] {
+  font-size: 18px;
+  color: #F59C24;
+}
+div[class^="advantages"] span[class="adv-descr"] {
+  font-size: 16px;
+  color: #99999;
+}
+div[class^="ishop"] .ishoptitle {
+  font-size: 18px;
+  color: black;
+  border-bottom: 3px solid #1E76BD;
+}
+div[class^="ishop"] .ishopsect {
+  height: 100px;
+  background-color: #fff;
+  border: 1px solid #E9EBEA;
+  margin-top: 10px;
+  padding-left: 115px;
+  padding-top: 15px;
+}
+div[class^="ishop"] .ishopsect img {
+  width: 86px;
+  height: 80px;
+}
+div[class^="ishop"] .ishopsect a {
+  font-size: 18px;
+  color: #000000;
+}
+div[class^="ishop"] .ishopsect a:hover {
+  color: #f19b00;
+}
+div[class^="ishop"] .ishopsect .ishopsectimg {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+div[class^="ishop"] .ishopsect .ishopsecttext {
+  text-decoration: underline;
+}
+div[class^="sale"] {
+  position: relative;
+  /*
+    div[id="in"],div[class="itm"] {
+    	display: inline-block;
+    	position: relative;
+    	height: 100px
+    }
+
+    div[id="in"] div[class="itm"] {
+    	text-align: center;
+    	line-height: 100px
+    }
+
+	
+
+	*/
+}
+div[class^="sale"] .saletitle {
+  font-size: 18px;
+  color: black;
+  border-bottom: 3px solid #1E76BD;
+}
+div[class^="sale"] .carousel-btn {
+  width: 52px;
+  height: 107px;
+  cursor: pointer;
+  position: absolute;
+  top: 148px;
+  z-index: 2;
+}
+div[class^="sale"] .prev-btn {
+  left: 0px;
+  background: url('../img/slider/arrow-slider-mix.png') no-repeat -7px -9px;
+}
+div[class^="sale"] .prev-btn:hover {
+  background: url('../img/slider/arrow-slider-mix.png') no-repeat -8px -123px;
+}
+div[class^="sale"] .next-btn {
+  right: 0px;
+  background: url('../img/slider/arrow-slider-mix.png') no-repeat -66px -9px;
+}
+div[class^="sale"] .next-btn:hover {
+  background: url('../img/slider/arrow-slider-mix.png') no-repeat -66px -122px;
+}
+div[class^="sale"] #in {
+  overflow: hidden;
+  height: 348px;
+}
+div[class^="sale"] .saleitem {
+  height: 318px;
+  min-width: 240px;
+  box-sizing: border-box;
+  background-color: #fffff;
+  font-size: 15px;
+  border: 1px solid #E2E3E3;
+  margin: 15px 0px;
+}
+div[class^="sale"] .saleitem .salecause {
+  height: 25px;
+  padding: 2px 10px;
+  background-color: #F49B23;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+div[class^="sale"] .saleitem .saleimg {
+  width: 190px;
+  padding-left: 25px;
+}
+div[class^="sale"] .saleitem .saletext {
+  height: 45px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #454647;
+  padding: 2px 15px;
+}
+div[class^="sale"] .saleitem .saleprice {
+  padding-left: 15px;
+  font-size: 15px;
+  color: #f19b00;
+}
+div[class^="sale"] .saleitem .saleoldprice {
+  font-size: 13px;
+  color: #999;
+  text-decoration: line-through;
+}
+footer {
+  background-color: #454647;
+  color: #fff;
+}
+footer a {
+  text-decoration: underline;
+  color: #fff;
+}
+footer a:hover {
+  color: #f19b00;
+}
+footer input[name="email"] {
+  display: inline-block;
+  height: 30px;
+  width: 140px;
+}
+footer .adress {
+  font-size: 12px;
+  color: #fff;
+}
+footer .adress a:hover {
+  color: #f19b00;
+}
+footer .footermenu,
+footer .footersocset,
+footer .footercontacts .workhour {
+  font-size: 14px;
+  color: #fff;
+}
+footer .footermenu ul,
+footer .footersocset ul,
+footer .footercontacts .workhour ul {
+  list-style: none;
+}
+.hidediv {
+  height: 0px;
+}
